@@ -1,95 +1,76 @@
 # 📘 GitHub Beginner Guide
 
 <p align="center">
-  <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="120" alt="GitHub Logo">
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/GitHub-Version_Control-black?style=for-the-badge&logo=github">
-  <img src="https://img.shields.io/badge/Beginner-Friendly-green?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Free_Account-Yes-blue?style=for-the-badge">
+  <img src="https://img.shields.io/badge/GitHub-Beginner%20Guide-black?style=for-the-badge&logo=github">
+  <img src="https://img.shields.io/badge/Level-Beginner-blue?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge">
 </p>
 
 ---
 
-## 🌐 What is GitHub?
-
-GitHub is a website where you can **store, manage, and share your code and files**.
+## 🌍 What Is GitHub?
 
 <p align="center">
-  <img src="https://docs.github.com/assets/cb-345/images/site/features/collaboration.png" width="600">
+  <img src="https://img.shields.io/badge/Platform-GitHub-black?logo=github">
+  <img src="https://img.shields.io/badge/Uses-Git-blue">
+  <img src="https://img.shields.io/badge/Purpose-Version%20Control-green">
 </p>
 
-### You can use GitHub to:
-- 📂 Store projects online
-- 👥 Work with others
-- 🕒 Track file changes
-- 🌍 Share your work publicly
+**GitHub** is an online platform where you can:
+- Store code and files
+- Track changes
+- Collaborate with others
+- Share projects publicly
 
 ---
 
-## 🧾 How to Create a GitHub Account
+## 🧑‍💻 How to Create a GitHub Account
 
 <p align="center">
-  <img src="https://docs.github.com/assets/cb-11086/images/help/settings/sign-up.png" width="600">
+  <img src="https://img.shields.io/badge/Step%201-Create%20Account-blue">
+  <img src="https://img.shields.io/badge/Plan-Free-success">
 </p>
 
 ### Steps:
-1. Go to 👉 https://github.com
-2. Click **Sign up**
-3. Enter:
-   - 📧 Email
-   - 👤 Username
-   - 🔒 Password
-4. Verify your email
-5. Choose **Free plan**
-
-✅ Your account is ready!
-
----
-
-## 🔑 Logging In
-
-<p align="center">
-  <img src="https://docs.github.com/assets/cb-12129/images/help/settings/sign-in.png" width="600">
-</p>
-
 1. Go to https://github.com
-2. Click **Sign in**
-3. Enter your details
+2. Click **Sign up**
+3. Enter your username, email, and password
+4. Verify your email
+5. Choose the **Free** plan
+6. Finish setup 🎉
 
 ---
 
-## 📁 Creating Your First Repository
+## 📁 What Is a Repository?
 
 <p align="center">
-  <img src="https://docs.github.com/assets/cb-25157/images/help/repository/create-repository.png" width="600">
+  <img src="https://img.shields.io/badge/Repository-Project%20Folder-orange">
+</p>
+
+A **repository (repo)** is a folder that stores your project files such as:
+- Code
+- Images
+- `README.md`
+
+---
+
+## ➕ How to Create a GitHub Repository
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Create-Repository-success?style=for-the-badge">
 </p>
 
 ### Steps:
-1. Click **+** (top right)
+1. Click the **+** icon (top-right corner)
 2. Select **New repository**
-3. Enter:
-   - Repository name
-   - Description (optional)
+3. Enter a repository name
 4. Choose **Public** or **Private**
 5. ✅ Check **Add a README file**
 6. Click **Create repository**
 
----
+### 📸 Example
 
-## 📝 What is README.md?
-
-<p align="center">
-  <img src="https://docs.github.com/assets/cb-12106/images/help/repository/readme-preview.png" width="600">
-</p>
-
-`README.md` is the **main description file** for your project.
-
-It explains:
-- What your project is
-- How to use it
-- Links and credits
+![Create GitHub Repository](https://docs.github.com/assets/images/help/repository/create-repository-name.png)
 
 ---
 
@@ -99,9 +80,10 @@ It explains:
   <img src="https://docs.github.com/assets/cb-23985/images/help/repository/edit-file-edit-button.png" width="600">
 </p>
 
+Steps:
 1. Open a file
-2. Click the ✏️ pencil icon
-3. Edit text
+2. Click the ✏️ **pencil icon**
+3. Edit text or code
 4. Scroll down
 5. Click **Commit changes**
 
@@ -113,6 +95,7 @@ It explains:
   <img src="https://docs.github.com/assets/cb-20877/images/help/repository/upload-files-button.png" width="600">
 </p>
 
+Steps:
 1. Open your repository
 2. Click **Add file → Upload files**
 3. Drag & drop files
@@ -120,15 +103,19 @@ It explains:
 
 ---
 
-## 💻 Using GitHub with Git (Optional)
+## 📝 What Is README.md?
 
 <p align="center">
-  <img src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" width="100">
+  <img src="https://img.shields.io/badge/File-README.md-blue">
+  <img src="https://img.shields.io/badge/Format-Markdown-lightgrey">
 </p>
 
-```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
-git add .
-git commit -m "First commit"
-git push
+`README.md` explains your project and appears on the main page of your repository.
+
+---
+
+## 👤 Profile Badges (Optional)
+
+```md
+![Followers](https://img.shields.io/github/followers/YOUR_USERNAME?style=for-the-badge)
+![Stars](https://img.shields.io/github/stars/YOUR_USERNAME?style=for-the-badge)
